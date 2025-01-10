@@ -3,4 +3,5 @@
 2) Even: input the num , check the condition if ; num%2==0, then its even , else false
 3) Factorial: To find the factorial the operation is multiplication of precessding digits of a num till 1., We will i/p a num let k, again we will run a for loop of range i=k;i>0;i--., declare a var m =1 for multiplication operation , m=m*i.. eg: i/p: 5.. 5 * 4.,20 * 3., 60 * 2;120 * 1
 4) Farheniet to celcius: enter a num let y., int x=y-32*5/9
-5) Fibonacci series: {0,1,1,2,3...} initially we declare a=0,b=1., run a for loop till what range we have to print the series, print 'a' value., c=a+b; a=b; b=c; (Here after operation we repetatively swap values)and print 'a' value .. 
+5) Fibonacci series: {0,1,1,2,3...} initially we declare a=0,b=1., run a for loop till what range we have to print the series, print 'a' value., c=a+b; a=b; b=c; (Here after operation we repetatively swap values)and print 'a' value ..
+6) No.of digits in a num: I/p a num., initially count=0;if(num>0) c=1 rem=num%10(return the last digit, count++) print(count).. 

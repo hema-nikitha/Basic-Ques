@@ -6,4 +6,7 @@
 5) Fibonacci series: {0,1,1,2,3...} initially we declare a=0,b=1., run a for loop till what range we have to print the series, print 'a' value., c=a+b; a=b; b=c; (Here after operation we repetatively swap values)and print 'a' value ..
 6) No.of digits in a num: I/p a num., initially count=0;if(num>0) c=1 rem=num%10(return the last digit, count++) print(count)..
 7) Palindrome ( States that the original num== reversal of num) : Intially take a i/p  of a num, let 'i'>> u=i, now from the given num, return all digits from last position through (rem=i%10)., store that last digits in other var; r=r*10+rem; remove the last digit; i=i/10., check if r==u, it is palindrome..
-8) Palindrome of a str:(Check if the original str== reversal str) ., I/p a string, use StringBuilder , and reverse it , check the condition for a str if original str==rev str., .equals() ... 
+8) Palindrome of a str:(Check if the original str== reversal str) ., I/p a string, use StringBuilder , and reverse it , check the condition for a str if original str==rev str., .equals() ...
+9) Prime: To check if a num is a prime or composite we have to divide that num with under the range of sqrt of nums, and get rem==0., then it is not prime., I/p a num., Use boolean isPrime==true., run the for over  a range .. check the rem condition return the boolean condition.. 
+
+
